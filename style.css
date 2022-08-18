@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lora', sans-serif;
+}
+body {
+    background-color: #000;
+}
+/* First Slide*/
+.container {
+    width: 100%;
+    text-align: center;
+    height: 110vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #000;
+}
+.title {
+    color: #fff;
+    margin-top: 130px;
+}
+.title h1 {
+    font-size: 50px;
+    font-weight: 50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title h2 {
+    padding: 19px 0;
+    font-size: 39px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn {
+    margin: 120px 0;
+}
+.btn img {
+    width: 78px;
+}
+/* Second Slide*/
+.row-2 {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.col-1 {
+    flex-grow: 1;
+    order: 1;
+    width: 30%;
+    text-align: center;
+    margin: 25vh 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 0 30px;
+}
+.col-1 p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-2 {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+}
+.col-2 img {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+}
+/* Third Slide */
+.row-3 {
+    background-color: #000;
+    color: #fff;
+}
+
+.biography {
+    width: 300px;
+    margin-top: 13vh;
+    margin-bottom: 9vh;
+    display: block;
+    margin-left: 330px;
+}
+.biography h1 {
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    font-weight: 200;
+}
+.content {
+    width: 650px;
+    margin-left: 330px;
+    margin-bottom: 15vh;
+}
+.content p {
+    font-family: 'Lora', serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 1.4;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    border-top: solid 2px #fff;
+    margin: 0 240px;
+}
+footer p {
+    font-family: serif;
+    font-size: 23px;
+    padding: 50px 0;
+    font-weight: 100;
+}
+p a {
+    color: rgb(104, 221, 120);
+}
+/* Media Queries*/
+@media(max-width:1200px) {
+    .biography {
+        width: 300px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 230px;
+    }
+    .content {
+        width: 600px;
+        margin-left: 230px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 150px 0 180px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 23px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
+
+@MEDIA (max-width:1000px) {
+    .biography {
+        width: 300px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 230px;
+    }
+    .content {
+        width: 480px;
+        margin-left: 230px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 200px 0 150px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 23px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
+
+@media(max-width:900px) {
+    .biography {
+        width: 300px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 200px;
+    }
+    .content {
+        width: 450px;
+        margin-left: 200px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 150px 0 180px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 23px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
+
+@MEDIA (max-width:800px) {
+    .biography {
+        width: 300px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 150px;
+    }
+    .content {
+        width: 400px;
+        margin-left: 150px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 100px 0 100px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 23px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
+
+@MEDIA (max-width:600px) {
+    .biography {
+        margin-left: 140px;
+    }
+    .content {
+        margin-left: 140px;
+        width: 300px;
+    }
+}
+
+@MEDIA (max-width:555px) {
+    .biography {
+        width: 300px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 120px;
+    }
+    .content {
+        width: 310px;
+        margin-left: 120px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 100px 0 100px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 23px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
+
+@MEDIA (max-width:535px) {
+    .biography {
+        margin-left: 30px;
+        margin-top: 20vh;
+    }
+    .content {
+        width: 400px;
+        margin-left: 30px;
+        margin-bottom: 15vh;
+    }
+    .content p {
+        font-size: 20px;
+    }
+}
+
+@MEDIA (max-width:450px) {
+    .biography {
+        margin-left: 30px;
+        margin-top: 20vh;
+    }
+    .content {
+        width: 350px;
+        margin-left: 30px;
+        margin-bottom: 15vh;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+}
+
+@MEDIA (max-width:400px) {
+    .biography {
+        margin-left: 30px;
+        margin-top: 20vh;
+    }
+    .content {
+        width: 300px;
+        margin-left: 30px;
+        margin-bottom: 15vh;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 20px;
+    }
+}
+
+@MEDIA (max-width:340px) {
+    .biography {
+        width: 280px;
+        margin-left: 30px;
+        margin-top: 20vh;
+    }
+    .content {
+        width: 280px;
+        margin-left: 30px;
+        margin-bottom: 15vh;
+    }
+    .content p {
+        font-size: 20px;
+    }
+}
+
+
+@MEDIA (max-width:316px) {
+    .biography {
+        margin-left: 30px;
+        margin-top: 20vh;
+        width: 230px;
+    }
+    .biography h1 {
+        font-size: 50px;
+    }
+    .content {
+        width: 230px;
+        margin-left: 30px;
+        margin-bottom: 15vh;
+    }
+    .content p {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+}
+
+@MEDIA (max-width:270px) {
+    .biography {
+        width: 200px;
+        margin-top: 13vh;
+        margin-bottom: 9vh;
+        display: block;
+        margin-left: 20px;
+    }
+    .content {
+        width: 200px;
+        margin-left: 20px;
+        margin-bottom: 15vh;
+    }
+    footer {
+        color: #fff;
+        text-align: center;
+        border-top: solid 2px #fff;
+        margin: 0 70px 0 70px;
+    }
+    footer p {
+        font-family: serif;
+        font-size: 15px;
+        padding: 50px 0;
+        font-weight: 100;
+    }
+    p a {
+        color: rgb(104, 221, 120);
+    }
+}
